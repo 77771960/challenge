@@ -1,0 +1,672 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+} 
+
+    /* ===== Menus de la page ===== */
+
+
+
+div .container_izzy{
+    position: relative;
+    background-color: #e95f4d;
+    width: 50%;
+
+}
+
+ .container-1{
+    background-color:burlywood;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+.container-1 ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 12px;
+    left: 47em;
+    margin-top: 1px;
+} 
+
+ .container-1 ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 5px;
+    margin-left: 50px;
+ } 
+ .container-1 ul li a:hover{
+    color: black;
+ }
+
+
+    /* =====block DAVID-MIKONGA===== */
+
+
+ header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color:#e4d8c0a9;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 17fr 1fr;
+    height: 770px;
+    top: -14px;
+}
+
+div .hacker{
+    position: relative;
+    width: 1800px;;
+    margin: auto;
+    height: 1700px;
+}
+
+ .hacker_1{
+    position: absolute;
+    background-color:aquamarine;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+    left: 40px;
+    box-shadow: 10px 10px 10px 10px black;
+    
+}
+
+.hacker_2{
+    position: absolute;
+    background-color: gray;
+    margin-top: 70px;
+    margin-left: 250px;
+    background-image: url(./../../Brother\ David.jpg);
+    height: 650px;
+    width: 450px;
+    border-radius:65px;
+    /* z-index: 1700px; */
+    box-shadow: 10px 20px 15px 5px black;
+
+}
+
+.hacker_3{
+    background-color: #341e4e;
+    margin-top: 15px;
+    margin-left: 520px;
+    height: 500px;
+    width: 670px;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 200px;
+    color: #fff;
+    box-shadow: 10px 10px 15px 10px black;
+}
+
+h1{
+    animation: apparition 7s ease-out;
+}
+@keyframes apparition {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.hacker_3 p a{
+    color: #fff;
+    margin-top: 15px;
+    text-decoration: none;
+    border: double;
+    background-color: black;
+    padding: 5px 5px;
+    border-radius: 15px;
+   
+}
+.hacker_3 a:hover{
+    color: red; 
+    padding-bottom: 10px;
+}
+
+
+.button{
+    padding: 10px 20px;
+    margin: 30px auto 0;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.button:hover{
+    color: black;
+    background-color: #fff;
+    animation: button .5s forwards;
+} 
+
+@keyframes button{
+    0%{
+        transform: translateX(0PX);
+    } 
+    20%{
+        transform: translateX(-15PX);
+    }
+    40%{
+        transform: translateX(15PX);
+    }
+    60%{
+        transform: translateX(-15PX);
+    }
+    80%{
+        transform: translateX(15PX);
+    }
+    100%{
+        transform: translateX(0PX);
+    }
+
+
+}
+
+
+
+/* =====Block PROTOTYPE digital===== */
+
+
+
+.think {
+    position: relative;
+    background-color: #dbd3c5;
+    margin-top:-1rem;
+    height: 70rem;
+}
+
+.rom{
+    display: flex;
+}
+
+div .titre_service{
+    display: flex;
+}
+
+.titre_service img{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.service{
+margin-left: 10rem;
+margin-top: 50px;
+}
+.service_izz{
+    margin-left: 10rem;
+    margin-top: 50px;
+}
+.service_izz1{
+    margin-left: 19rem;
+    margin-top: 50px;
+}
+.service_izz2{
+    margin-left: 12rem;
+    margin-top: 50px;
+}
+
+.section h2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 3rem;
+    color: black;
+}
+
+
+/* ---- it's time to develop---- */
+
+div .ult{
+    position: relative;
+    width: 100%;
+}
+
+.ult_1{
+    position: absolute;
+    background-color:#57a088;
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 7%;
+    height: 7%;
+    border-radius: 90%;
+    box-shadow: 0 0 0 0 black;
+    animation: ult_1 1.3s infinite;
+}
+
+@keyframes ult_1{
+    to {
+        box-shadow: 0 0 0 20px rgb(0, 0, 0, 0.1)
+    }
+}
+
+.ult_2{
+    position: absolute;
+    background-color: #57a088;
+    margin-top: -12rem;
+    margin-left: 40rem;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    color:white;
+}
+.ult h1{
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 3rem;
+}
+
+.ult_2 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+
+/* =====The new prouction dev pro===== */
+
+
+
+.abab{
+    position: relative;
+    background-color: #e4d8c0a9;
+    width: 100%;
+    height: 1900px;
+    margin-top: -2rem;
+}
+
+.about{
+    display: flex;
+}
+.about img{
+    width: 35px;
+    margin-top: 25px;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+
+.abab_1{
+    background-color: #341e4e;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abab_2{
+    position: absolute;
+    background-color:#57a088;
+    margin-top: 30px;
+    margin-left: 470px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abab_3{
+    position: absolute;
+    background-color:#341e4e;
+    margin-top: 30px;
+    margin-left: 900px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abab_4{
+    /* position: absolute; */
+    background-color:#57a088;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abab_5{
+    position: absolute;
+    background-color:#341e4e;
+    margin-top: 20px;
+    margin-left: 470px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.abab_6{
+    position: absolute;
+    background-color:#57a088;
+    margin-top: 20px;
+    margin-left: 900px;
+    width: 400px;
+    height: 300px;
+    color: #fff;
+    border-radius: 25px;
+}
+
+ section.abab h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 27px;
+}
+.about h2{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.about p{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+/* ----About our proffetionals---- */
+
+div .sing{
+    position: relative;
+    width: 100%;
+}
+
+.sing h1{
+    text-align: center;
+    margin-top: 170px;
+    font-size: 70px;
+} 
+.sing p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.sing img{
+    width: 65rem;
+    height: 30rem;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+
+ .sing_1 span{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 200px;
+} 
+ .miracle p{
+   display:inline-block ;
+    font-size: 50px;  
+    margin-left: 200px; 
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:#57a088;
+    cursor: pointer;
+    animation: miracle 4s forwards;
+} 
+
+@keyframes miracle {
+    0% {
+        transform: translateX(0px);
+    }
+    20% {
+        transform: translateX(-10px);
+    }
+    40% {
+        transform: translateX(10px);
+    }
+    60% {
+        transform: translateX(-10px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+p a{
+    text-align: center;
+    color: black; 
+    margin-top: 101px;
+}
+
+
+/* ======We build usable products====== */
+
+
+
+main{
+    position: relative;
+    background-color: #dbd3c5;
+    width: 100%;
+    height: 800px;
+    margin-top: -4rem;
+}
+
+.main_1 h2{
+    position: absolute; 
+    margin-left: 60px;
+    font-size: 50px;
+    margin-top: 20px;
+
+}
+
+.main_1 p{  
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 60px;
+
+}
+
+.amisa{
+    position:absolute;
+    display: flex;
+    margin-top: 160px;
+    margin-left: 50px;
+}
+.info1{
+    margin-left: 120px;
+}
+.info2{
+    margin-left: 50px;
+    margin-top: 270px;
+} 
+.info3{
+    margin-top: 270px;
+}
+
+.pic{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 600px;
+    border-radius: 30px;
+    box-shadow: 1px 10px 10px 20px black;
+}
+
+.pic img{
+    border-radius: 20px;
+}
+
+footer{
+    position: relative;
+    background-color:#e4d8c0a9;
+    width: 100%;
+    height: 50rem;
+    margin-top: -10px;
+    /* grid-template-columns: (4 1fr); */
+}
+
+ .fin{
+    display: flex;
+    width: 40%;
+    height: 200px;
+}
+
+.footer1{
+    position: absolute;
+    background-color: #57a088;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 50px;
+    }
+    
+    
+.footer2{
+    position: absolute;
+    background-color: #57a088;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 475px;
+ }
+        
+        
+.footer3{
+    position: absolute;
+    background-color: #57a088;
+    width: 30%;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 900px;
+}
+.footer p{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+ .footer h2{
+    margin-left: 40px;
+    color: #341e4e;
+    animation: amazing 3.7s forwards;
+}
+
+@keyframes amazing {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.the_and1{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 50px;
+    /* font-weight: bolder; */
+
+}
+
+.the_and1 h2{
+    margin-top: 70px;
+    margin-left: 90px;
+    font-size: 40px;
+}
+
+input{
+    padding: 20px 20px solid;
+    border: none;
+    background: none;
+    margin-left: 2px;
+}
+
+#message{
+    padding: 5px 40px;
+    background: none;
+    border: none;
+}
+#submit{
+    background-color: #341e4e;
+    color: #fff;
+    padding: 5px 135px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#nom{
+    padding: 5px 70px;
+}
+#email{
+    padding: 5px 70px;
+}
+div a{
+    text-decoration: none;
+}
+
+.the_and-2{
+    /* position:absolute; */
+    width: 30%;
+    height: 70px;
+    margin: auto;
+}
+
+.the_and-4{
+    position: absolute;
+    background-color: #57a088;
+    width: 30%;
+    height: 25rem;
+    margin-left: 50rem;
+    margin-top: 90px;
+    border-radius: 20px;
+}
+
+.the_and-4 h3{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.the_and-4 p{
+    margin-left: 47px;
+
+}
+    
+
+/* ========= mwisho ======= */
+
+
+div .mwisho{
+    position: relative;
+    width: 100%;
+   
+}
+
+.mwisho-1{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 7rem;
+    color: white;
+    /* margin-top: 30px; */
+}
+
+.mwisho-1 p{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.mwisho-1 strong{
+    font-size: 40px;
+    margin-left: 57rem;
+}
